@@ -98,7 +98,7 @@ interests, we will choose 1 - 3 papers a week.
 
 ###	Meta-Analysis
 1. [Multiple-laboratory comparison of microarray platforms](https://doi.org/10.1038/nmeth756)
-1. [Meta‐analysis methods for multiple related markers: Applications to microbiome studies with the results on multiple α‐diversity indices](https://onlinelibrary.wiley.com/doi/10.1002/sim.8940)
+1. [Meta-analysis methods for multiple related markers: Applications to microbiome studies with the results on multiple α‐diversity indices](https://onlinelibrary.wiley.com/doi/10.1002/sim.8940)
 1. [Meta-analysis of gut microbiome studies identifies disease-specific and shared responses](https://doi.org/10.1038/s41467-017-01973-8)
 1. [The impact of different sources of heterogeneity on loss of accuracy from genomic prediction models](https://academic.oup.com/biostatistics/article/21/2/253/5092386)
 1. [Accessible, curated metagenomic data through ExperimentHub](https://doi.org/10.1038/nmeth.4468)

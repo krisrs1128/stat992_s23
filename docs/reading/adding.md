@@ -6,7 +6,7 @@ nav_order: 2
 ---
 
 
-You are welcome (encouraged!) to suggest additional readings for this course. 
+You are encouraged to suggest additional readings for this course.
 
 ## Journals
 

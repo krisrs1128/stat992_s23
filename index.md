@@ -15,7 +15,9 @@ UW Madison, Spring 2023
 
 Office Hours will be set using [this poll](https://www.when2meet.com/?18074495-vHppD).
 
-**Time and Location**: Tuesdays 11 - 11:50am, 222 Ingraham Hall
+**Time and Location**: Tuesdays 11 - 11:50am, [222 Ingraham Hall](https://map.wisc.edu/s/tygjx6i6)
+
+**[Official Syllabus](assets/syllabus.docx)**
 
 ## Course Description
 
