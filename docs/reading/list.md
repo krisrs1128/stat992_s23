@@ -22,11 +22,10 @@ interests, we will choose 1 - 3 papers a week.
 
 ## Scientific Context
 
-1.	[Genomics and Systems Biology](https://drive.google.com/file/d/1FJQMsQySjTA2KK1JQU73PB4OvjM_v2n7/view?usp=share_link)
-1.	[Statistics requantitates the central dogma](https://www.science.org/doi/10.1126/science.aaa8332)
+1. [Excerpt from "The Song of the Cell"](https://news.harvard.edu/gazette/story/2022/11/excerpt-from-siddhartha-mukherjees-the-song-of-the-cell/)
 1.	[Computational principles and challenges in single-cell data integration](https://doi.org/10.1038/s41587-021-00895-7)
 1.	[Integrative single-cell analysis](https://doi.org/10.1038/s41576-019-0093-7)
-1.	[The integrative human microbiome project](https://doi.org/10.1038/s41586-019-1238-8)
+1.	[Statistics requantitates the central dogma](https://www.science.org/doi/10.1126/science.aaa8332)
 
 ## Data Management
 
@@ -62,18 +61,21 @@ interests, we will choose 1 - 3 papers a week.
 1.	[Dimension reduction techniques for the integrative analysis of multi-omics data](https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbv108)
 1.	[Multi-Omics Factor Analysis -- framework for unsupervised integration of multi-omics data sets](https://doi.org/10.15252/msb.20178124)
 1.	[A Generic Multivariate Framework for the Integration of Microbiome Longitudinal Studies with Other Data Types](https://www.frontiersin.org/article/10.3389/fgene.2019.00963)
+1. [Jointly Embedding Multiple Single-Cell Omics Measurements](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8496402/#:~:text=10.4230/LIPIcs.WABI.2019.10)
 1. [Joint and individual variation explained (JIVE) for integrated analysis of multiple data types](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-7/issue-1/Joint-and-individual-variation-explained-JIVE-for-integrated-analysis-of/10.1214/12-AOAS597.full)
-1.	[Nonnegative spatial factorization](http://arxiv.org/abs/2110.06122)
+1. [Integrative analysis of single-cell genomics data by coupled nonnegative matrix factorizations](https://www.pnas.org/doi/10.1073/pnas.1805681115)
+1.	[Alignment of spatial genomics and histology data using deep Gaussian processes](https://www.biorxiv.org/content/biorxiv/early/2022/01/11/2022.01.10.475692.full.pdf)
 1.	[Inference after latent variable estimation for single-cell RNA sequencing data](https://doi.org/10.1093/biostatistics/kxac047)
 
 ###	Supervised
 
 1.	[Sparse partial least squares regression for simultaneous dimension reduction and variable selection](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9868.2009.00723.x)
 1. [Cooperative learning for multiview analysis](https://www.pnas.org/doi/10.1073/pnas.2202113119)
+1. [Efficient multivariate linear mixed model algorithms for genome-wide association studies](https://doi.org/10.1038/nmeth.2848)
 1. [mixOmics: An R package for 'omics feature selection and multiple data integration](https://doi.org/10.1371/journal.pcbi.1005752)
 1. [Joint association and classification analysis of multi-view data](https://arxiv.org/abs/1811.08511)
+1. [Multimodal Single-Cell Translation and Alignment with Semi-Supervised Learning](https://www.liebertpub.com/doi/pdf/10.1089/cmb.2022.0264)
 1.	[Large-Margin Predictive Latent Subspace Learning for Multiview Data Analysis](http://ieeexplore.ieee.org/document/6332444/)
-1. [Multimodal Learning with Deep Boltzmann Machines](https://proceedings.neurips.cc/paper/2012/hash/af21d0c97db2e27e13572cbf59eb343d-Abstract.html)
 
 ## Generative Modeling
 
@@ -84,6 +86,8 @@ interests, we will choose 1 - 3 papers a week.
 3.	[Dynamic Bayesian Networks for Integrating Multi-omics Time Series Microbiome Data](https://journals.asm.org/doi/10.1128/mSystems.01105-20)
 4.	[Identifying temporal and spatial patterns of variation from multimodal data using MEFISTO](https://www.nature.com/articles/s41592-021-01343-9)
 6.	[Robust probabilistic modeling for single-cell multimodal mosaic integration and imputation via scVAEIT](https://doi.org/10.1073/pnas.2214414119)
+1. [FreeHi-C spike-in simulations for benchmarking differential chromatin interaction detection](https://www.sciencedirect.com/science/article/pii/S1046202320300852)
+1. [Multimodal Learning with Deep Boltzmann Machines](https://proceedings.neurips.cc/paper/2012/hash/af21d0c97db2e27e13572cbf59eb343d-Abstract.html)
 
 ## Networks
 
@@ -109,3 +113,4 @@ interests, we will choose 1 - 3 papers a week.
 1. [Data denoising with transfer learning in single-cell transcriptomics](http://www.nature.com/articles/s41592-019-0537-1)
 1. [scJoint integrates atlas-scale single-cell RNA-seq and ATAC-seq data with transfer learning](https://www.nature.com/articles/s41587-021-01161-6)
 1. [Integration and transfer learning of single-cell transcriptomes via cFIT](https://pnas.org/doi/full/10.1073/pnas.2024383118)
+1. [INFIMA leverages multi-omics model organism data to identify effector genes of human GWAS variants](https://doi.org/10.1186/s13059-021-02450-8)
