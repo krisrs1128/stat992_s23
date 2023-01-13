@@ -30,7 +30,9 @@ By drawing wisely from the statistical toolbox, it is possible to build more use
 By the conclusion of the course, you will be able to,
 
 1.	Design and implement benchmarking studies (using both simulated and real data) to clarify the properties of existing multi-omics data analysis workflows.
-1.	Compare and contrast sequencing technologies and study designs widely used in modern multi-omic studies.
-1.	Write accessible technical reviews and prepare minimal code demos that translate theoretical advances in statistics to the multi-omics data analysis context.
-1.	Apply and critique R packages for visualization and modeling of multi-omic data.
+1.	Compare and contrast sequencing technologies and study designs widely used in modern multi-omics studies.
+1.	Write accessible technical reviews and prepare minimal code demos that
+illustrate how theoretical advances in statistics can inform practical
+multi-omics data analysis.
+1.	Apply and critique R packages for visualization and modeling of multi-omics data.
 1.	Navigate the multi-omics literature, prepare academic peer reviews, and plan well-motivated research projects in the area.
