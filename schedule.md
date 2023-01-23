@@ -8,8 +8,8 @@ nav_order: 1
 **Scientific Context**
 
 |:--:|:-----:|
-| January 24 | [Session 1: Orientation]() |
-| January 31 | [Session 2: Scientific Motivation]() |
+| January 24 | [Session 1: Orientation](https://krisrs1128.github.io/stat992_s23/sessions.html#orientation) |
+| January 31 | [Session 2: Scientific Motivation](https://krisrs1128.github.io/stat992_s23/sessions.html#scientific-motivation) |
 
 **Data Management**
 
