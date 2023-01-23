@@ -19,14 +19,14 @@ nav_order: 1
 **Hypothesis Testing**
 
 |:--:|:-----:|
-| February 14 | [Session 4]() <br/> [HW1: Case Study]() <span class="label label-due">Due</span> |
+| February 14 | [Session 4]()  |
 | February 21 | [Session 5]() |
 
 **Prediction and Dimensionality Reduction**
 
 |:--:|:-----:|
 | February 28 | [Session 6]() |
-| March 7 | [Session 7]() <br/> [HW2: Benchmarking Experiment]() <span class="label label-due">Due</span>  |
+| March 7 | [Session 7]() <br/> [HW1]() <span class="label label-due">Due</span>  |
 
 **Generative Models**
 
@@ -38,7 +38,6 @@ nav_order: 1
 
 |:--:|:-----:|
 | April 4  | [Session 10]() |
-| April 11 | [Session 11]() <br/> [HW3: Technical Review]() <span class="label label-due">Due</span> |
 
 **Multi-Study Analysis**
 
@@ -50,4 +49,4 @@ nav_order: 1
 
 |:--:|:-----:|
 | May 3 | [Session 14]() |
-| May 10 | [Final Project]() <span class="label label-due">Due</span> |
+| May 10 | <br/> [HW2]() <span class="label label-due"> |
