@@ -43,19 +43,12 @@ options(width = 100)
 
 ---
 
-### Syllabus
-
-* Learning outcomes
-* Assessments
-* Readings and Activities
-
----
-
-### Learning Outcomes
-
----
-
 ## January 24, 2023
+
+1. Review the [syllabus](https://krisrs1128.github.io/stat992_s23/assets/syllabus.docx) + [reading list](https://docs.google.com/document/d/11-UvYVtin4n9bVEdK8AH3vAGQCgNDaXWifPGYRlSZFA/edit) [10 min]
+1. [Discussion: Introductions and Values Affirmation](https://docs.google.com/document/d/1qei_7yL6ZZBCFo95BvrBAUBlaqE73yYLudaabzO4UAg/edit) [15 min]
+1. [Discussion: Rules and Recommendations](https://docs.google.com/document/d/1qei_7yL6ZZBCFo95BvrBAUBlaqE73yYLudaabzO4UAg/edit) [15 min]
+1. [Writing: Areas of Interest](https://docs.google.com/document/d/1qei_7yL6ZZBCFo95BvrBAUBlaqE73yYLudaabzO4UAg/edit) [5 min]
 
 ---
 

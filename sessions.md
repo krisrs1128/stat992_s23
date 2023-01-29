@@ -17,6 +17,11 @@ class session.
 
 ### Scientific Motivation
 
+1. [Discussion [Muddiest Point]](https://docs.google.com/document/d/1QV2x5Z-5ZZUM0XVGtIKlFPZJUbyVncTTQ-9aSVUyKgk/edit#bookmark=id.kar8hntyhhfj)
+1. [Activity [Reading Summaries]](https://docs.google.com/document/d/1QV2x5Z-5ZZUM0XVGtIKlFPZJUbyVncTTQ-9aSVUyKgk/edit#bookmark=id.yhscfqjtz2gc)
+1. [Activity [Data Downloads]](https://docs.google.com/document/d/1QV2x5Z-5ZZUM0XVGtIKlFPZJUbyVncTTQ-9aSVUyKgk/edit#bookmark=id.laoj8rp2qfi6), ([Datasets Repo](https://github.com/krisrs1128/multiomics_data))
+1. [Discussion [Translating Statistics -> Omics]](https://docs.google.com/document/d/1QV2x5Z-5ZZUM0XVGtIKlFPZJUbyVncTTQ-9aSVUyKgk/edit#bookmark=id.gvcb046dyo0b)
+
 ### Data Management
 
 ### Hypothesis Testing

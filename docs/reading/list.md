@@ -50,6 +50,7 @@ interests, we will choose 1 - 3 papers a week.
 ### Proposals
 
 1.	[Clipper: p-value-free FDR control on high-throughput data from two conditions](https://doi.org/10.1186/s13059-021-02506-9)
+1. [High-sensitivity pattern discovery in large, paired multiomic datasets](https://doi.org/10.1093/bioinformatics/btac232)
 1.	[A selective inference approach for false discovery rate control using multiomics covariates yields insights into disease risk](https://www.pnas.org/content/117/26/15028)
 1.	[A statistical approach for identifying differential distributions in single-cell RNA-seq experiments](https://doi.org/10.1186/s13059-016-1077-y)
 
