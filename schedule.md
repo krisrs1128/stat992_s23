@@ -26,7 +26,8 @@ nav_order: 1
 
 |:--:|:-----:|
 | February 28 | [Session 6]() |
-| March 7 | [Session 7]() <br/> [HW1]() <span class="label label-due">Due</span>  |
+| March 7 | [Session 7]() | 
+| March 11 | [HW1](https://github.com/krisrs1128/stat992_s23/blob/main/activities/hw1.docx?raw=true) <span class="label label-due">Due </span>  |
 
 **Generative Models**
 
