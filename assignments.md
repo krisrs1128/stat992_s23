@@ -21,7 +21,7 @@ nav_order: 3
 
 ### HW1: Understanding Algorithms
 Due: March 11, 11:59pm
-* [Description]()
+* [Description](https://www.gradescope.com/courses/479037/assignments/2624958/submissions)
 * [Example Solutions]()
 
 ### HW2: Research Perspective
