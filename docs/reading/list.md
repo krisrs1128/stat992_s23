@@ -50,6 +50,7 @@ interests, we will choose 1 - 3 papers a week.
 ### Proposals
 
 1.	[Clipper: p-value-free FDR control on high-throughput data from two conditions](https://doi.org/10.1186/s13059-021-02506-9)
+1. [Exaggerated false positives by popular differential expression methods when analyzing human population samples](https://doi.org/10.1186/s13059-022-02648-4)
 1. [High-sensitivity pattern discovery in large, paired multiomic datasets](https://doi.org/10.1093/bioinformatics/btac232)
 1.	[A selective inference approach for false discovery rate control using multiomics covariates yields insights into disease risk](https://www.pnas.org/content/117/26/15028)
 1.	[A statistical approach for identifying differential distributions in single-cell RNA-seq experiments](https://doi.org/10.1186/s13059-016-1077-y)
@@ -64,6 +65,7 @@ interests, we will choose 1 - 3 papers a week.
 1.	[A Generic Multivariate Framework for the Integration of Microbiome Longitudinal Studies with Other Data Types](https://www.frontiersin.org/article/10.3389/fgene.2019.00963)
 1. [Jointly Embedding Multiple Single-Cell Omics Measurements](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8496402/#:~:text=10.4230/LIPIcs.WABI.2019.10)
 1. [Joint and individual variation explained (JIVE) for integrated analysis of multiple data types](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-7/issue-1/Joint-and-individual-variation-explained-JIVE-for-integrated-analysis-of/10.1214/12-AOAS597.full)
+1. [Integrated principal components analysis](https://dl.acm.org/doi/abs/10.5555/3546258.3546456)
 1. [Integrative analysis of single-cell genomics data by coupled nonnegative matrix factorizations](https://www.pnas.org/doi/10.1073/pnas.1805681115)
 1.	[Alignment of spatial genomics and histology data using deep Gaussian processes](https://www.biorxiv.org/content/biorxiv/early/2022/01/11/2022.01.10.475692.full.pdf)
 1.	[Inference after latent variable estimation for single-cell RNA sequencing data](https://doi.org/10.1093/biostatistics/kxac047)
@@ -71,6 +73,7 @@ interests, we will choose 1 - 3 papers a week.
 ###	Supervised
 
 1.	[Sparse partial least squares regression for simultaneous dimension reduction and variable selection](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9868.2009.00723.x)
+1. [Feature selection for data integration with mixed multiview data](https://doi.org/10.1214/20-AOAS1389)
 1. [Cooperative learning for multiview analysis](https://www.pnas.org/doi/10.1073/pnas.2202113119)
 1. [Efficient multivariate linear mixed model algorithms for genome-wide association studies](https://doi.org/10.1038/nmeth.2848)
 1. [mixOmics: An R package for 'omics feature selection and multiple data integration](https://doi.org/10.1371/journal.pcbi.1005752)
