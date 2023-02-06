@@ -14,7 +14,7 @@ nav_order: 1
 **Data Management**
 
 |:--:|:-----:|
-| February 7 |  [Session 3]()|
+| February 7 |  [Session 3](https://krisrs1128.github.io/stat992_s23/sessions.html#data-management)|
 
 **Hypothesis Testing**
 

@@ -24,6 +24,10 @@ class session.
 
 ### Data Management
 
+1. [Discussion [OCAR]](https://docs.google.com/document/d/1uaYiHyvswkCd6wPEAdutD2uxcF0l6NJOCUg07oDJgGM/edit#bookmark=id.fj752x5nvi65)
+1. [Activity [Code Demo]](https://github.com/krisrs1128/stat992_s23/blob/main/activities/demo3-1.Rmd)
+1. [Discussion [MultiAssayExperiment Variants]](https://docs.google.com/document/d/1uaYiHyvswkCd6wPEAdutD2uxcF0l6NJOCUg07oDJgGM/edit#bookmark=id.xwwl4hno1whv)
+
 ### Hypothesis Testing
 
 ### Prediction and Dimensionality Reduction
