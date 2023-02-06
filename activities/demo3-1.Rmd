@@ -1,0 +1,186 @@
+---
+title: "STAT 992 S23: Week 3"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+These notes show how we can use `MultiAssayExperiment` to run Multi-Omic Gene
+Set Analysis (MOGSA) on the Type 1 Diabetes study from
+[DIABIMMUNE](https://diabimmune.broadinstitute.org/diabimmune/t1d-cohort). It
+follows ``Integrated Single Sample Gene Set Enrichment Analysis'' from the
+paper's supplementary material.
+
+## MAE Construction
+
+We'll need the libraries below. Note that Bioconductor packages are installed
+using `BiocManager`, not `install.packages()`. The commented code shows to
+install these packages in case you don't already have them.
+
+```{r}
+# install.packages("BiocManager")
+# BiocManager::install(c("MultiAssayExperiment", "mogsa", "curatedMetagenomicData", "genefilter"))
+library(MultiAssayExperiment)
+library(curatedMetagenomicData)
+library(genefilter)
+library(gplots) 
+library(mogsa)
+library(tidyverse)
+theme_set(theme_bw())
+```
+
+The block below downloads the 16S microbiome and metagenomic data from the Type
+1 Diabetes study. The two datasets have exactly matching samples, but there are
+more metagenomic features (gene pathways) than 16S taxa. The metagenomics data
+give an idea of whether certain biological pathways are more active in some
+phenotypes, even if these pathways are spread out across many different taxa.
+
+```{r}
+kostic_taxa <- curatedMetagenomicData("KosticAD_2015.relative_abundance", dryrun = FALSE, rownames = "short")
+kostic_genes <- curatedMetagenomicData("KosticAD_2015.pathway_coverage", dryrun = FALSE, rownames = "short")
+mae <- MultiAssayExperiment(c(kostic_taxa, kostic_genes))
+```
+
+We'll want to keep track of the sample descriptors. The study metadata is
+contained in a global object called `sampleMetadata` which is exported by the
+`curatedMetagenomicData` package. We'll extract the subset for the current study
+and merge it into our updated MAE in the next section.
+
+```{r}
+metadata <- sampleMetadata %>%
+  filter(study_name == "KosticAD_2015") %>%
+  select(sample_id, subject_id, disease, disease_subtype, infant_age, country, born_method, feeding_practice) %>%
+  DataFrame()
+rownames(metadata) <- sampleNames(kostic_taxa)
+```
+
+## Filtering Features
+
+There are `r nrow(mae[[1]])` taxa and `r nrow(mae[[2]])` gene pathways in the
+raw data. However, most are present in only low abundances. To improve power, it
+can be helpful to filter down to those features that are present in higher
+abundances. We are willing to sacrifice potential signal in the sparse features
+in order to reduce the problem dimensionality over all. The code below filters
+down to taxa and genes that are present in at least 5 and 20% of samples,
+respectively.
+
+```{r}
+keep_ix <- map2(assays(mae), c(0.05, 0.2), ~ genefilter(.x, pOverA(.y, 0)))
+keep_ix[[1]] <- keep_ix[[1]] & !is.na(rowData(mae[[1]])$genus)
+keep_ix[[2]] <- keep_ix[[2]] & str_detect(names(keep_ix[[2]]), "g_")
+mae <- map2(mae, keep_ix, ~ .x[.y, ]) %>%
+  MultiAssayExperiment(colData = metadata)
+```
+
+## Preparing MOGSA Input
+
+The MOGSA technique unifies features from across sources by using shared gene
+sets. The idea is that, if each original feature can be assigned to a gene set
+that is can be interpreted across sources, then the final results should be
+presented in terms of gene set activity. Specifically, MOGSA sums factor
+loadings from each source according to their gene set membership:
+
+![](https://ds.dfci.harvard.edu/~aedin/Images/MOGSA/Figures/Slide1.jpg)
+
+Therefore, to apply this method to the Type 1 Diabetes data, we need to define
+something analogous to gene sets. In this context, we will use bacterial genus
+-- this is possible because each gene pathway is already given a taxonomic
+assignment. The block below makes these assignments by parsing the `rowData` and
+rownames from the MAE sources. Finally, we filter to only those genera that are
+shared across sources.
+
+```{r}
+xs <- map(mae, ~ as.data.frame(assay(.)))
+
+supp <- list(
+  model.matrix(~ -1 + genus, data = rowData(mae[[1]])) %>%
+    as.matrix(),
+  str_extract(rownames(mae[[2]]), "g__[A-z]+") %>%
+    data.frame(genus = str_remove(., "g__")) %>%
+    model.matrix(~ -1 + genus, .)
+)
+
+intersect_cols <- intersect(colnames(supp[[1]]), colnames(supp[[2]]))
+supp[[1]] <- supp[[1]][, intersect_cols]
+supp[[2]] <- supp[[2]][, intersect_cols]
+```
+
+## MOGSA Interpretation
+
+Finally, we can run MOGSA. The `proc.row` argument describes the preprocessing
+that is applied to each feature, and `w.data` describes how to weight each
+source. In the underlying dimensionality reduction routine, `inertia` will
+reweight each table so that they have equal maximal eigenvalue across sources.
+The figure below shows the activity level of each gene set aggregated across all
+sources. The samples are light or dark depending on whether the associated
+infant was diagnosed with Type 1 Diabetes.
+
+```{r, fig.width = 14, fig.height = 6}
+fit <- mogsa(xs, supp, nf = 10, proc.row = "center_ssq1", w.data = "inertia")
+scores <- getmgsa(fit, "score")
+cols <- c("#A6A6A6", "#0D0D0D")[as.factor(colData(mae)$disease)]
+heatmap.2(scores, trace = "n", scale = "r", colCol = cols)
+```
+
+We can also make a PCA-like figure of latent sample scores and factor loadings.
+
+```{r}
+fs <- getmgsa(fit, "fac.scr")  %>%
+  as_tibble() %>%
+  select(PC1:PC4) %>%
+  bind_cols(as_tibble(colData(mae)))
+
+ggplot(fs) +
+  geom_point(aes(PC1, PC2, col = disease, size = infant_age)) +
+  scale_color_brewer(palette = "Set2") +
+  scale_size(range = c(0.5, 4)) +
+  facet_wrap(~ country)
+
+plotGS(fit, center.only = TRUE)
+```
+
+## Extending S4 Classes
+
+Let's step back from this specific data analysis and reflect on the value of
+defining a `MultiAssayExperiment` object in the first place. Much of what we've
+done did not actually need much more than a simple list of
+`SummarizedExperiment`. However, being able to define methods for a well-defined
+class can often be helpful. In the example below, we extend the
+`MultiAssayExperiment` class into our own `myMAE` class, so that we can give it
+its own `cor` method. We will overwrite the default `cor` command for the case
+that the input object has class `myMAE`, and in this case, it will return a list
+showing the pairwise correlation between features from across sources.
+
+We accomplish this by defining a new class through `setClass` and defining a
+`cor` method specific to this class using `setMethod`. Our specialized cor
+function is `mae_cor` -- it loops over assays and computes their pairwise
+correlations.
+
+```{r}
+mae_corr <- function(x) {
+  xs <- assays(x)
+  nm <- names(x)
+  
+  corr <- list()
+  for (i in seq_along(x)) {
+    for (j in seq_len(i - 1)) {
+      corr[[paste0(nm[i], "-", nm[j])]] <- cor(t(xs[[i]]), t(xs[[j]]))
+    }
+  }
+  
+  corr
+}
+
+setClass("myMAE", contains = "MultiAssayExperiment")
+setMethod("cor", signature(x = "myMAE"), mae_corr)
+```
+
+We can now apply this correlation method to the previous MAE object.
+
+```{r}
+my_mae <- as(mae, "myMAE")
+hist(atan(cor(my_mae)[[1]]), breaks = 200)
+```
