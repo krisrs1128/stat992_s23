@@ -30,6 +30,10 @@ class session.
 
 ### Hypothesis Testing
 
+1. [Background Notes]()
+1. [Activity [Visualization / Examples]](https://docs.google.com/document/d/1Jak0jEiu94uQ7YuX-8_KmOtACzhMEUVb3HsclLkTBss/edit#bookmark=id.fmth1c1x6gya)
+1. [Discussion [Questions / Extensions]](https://docs.google.com/document/d/1Jak0jEiu94uQ7YuX-8_KmOtACzhMEUVb3HsclLkTBss/edit#bookmark=id.hqbgdadrkv22)
+
 ### Prediction and Dimensionality Reduction
 
 ### Generative Models
