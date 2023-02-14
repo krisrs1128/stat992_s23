@@ -30,7 +30,7 @@ class session.
 
 ### Hypothesis Testing
 
-1. [Background Notes]()
+1. [Background Notes](https://jamboard.google.com/d/1Z7OHGm0SK49fsB0iNMS1D6DnsItFHdEg3XeXvuxN95E/edit?usp=sharing)
 1. [Activity [Visualization / Examples]](https://docs.google.com/document/d/1Jak0jEiu94uQ7YuX-8_KmOtACzhMEUVb3HsclLkTBss/edit#bookmark=id.fmth1c1x6gya)
 1. [Discussion [Questions / Extensions]](https://docs.google.com/document/d/1Jak0jEiu94uQ7YuX-8_KmOtACzhMEUVb3HsclLkTBss/edit#bookmark=id.hqbgdadrkv22)
 
