@@ -15,13 +15,12 @@ nav_order: 1
 
 |:--:|:-----:|
 | February 7 |  [Session 3: Data Management](https://krisrs1128.github.io/stat992_s23/sessions.html#data-management)|
-| February 14 |  [Session 4: Hypothesis Testing I](https://krisrs1128.github.io/stat992_s23/sessions.html#hypothesis-testing)|
 
 **Hypothesis Testing**
 
 |:--:|:-----:|
-| February 14 | [Session 4]()  |
-| February 21 | [Session 5]() |
+| February 14 |  [Session 4: Hypothesis Testing I](https://krisrs1128.github.io/stat992_s23/sessions.html#hypothesis-testing)|
+| February 21 | [Session 5: Hypothesis Testing II](https://krisrs1128.github.io/stat992_s23/sessions.html#hypothesis-testing) |
 
 **Prediction and Dimensionality Reduction**
 

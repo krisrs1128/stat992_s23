@@ -30,9 +30,12 @@ class session.
 
 ### Hypothesis Testing
 
-1. [Background Notes](https://jamboard.google.com/d/1Z7OHGm0SK49fsB0iNMS1D6DnsItFHdEg3XeXvuxN95E/edit?usp=sharing)
+1. [Background Notes [Dirichlet Process]](https://jamboard.google.com/d/1Z7OHGm0SK49fsB0iNMS1D6DnsItFHdEg3XeXvuxN95E/edit?usp=sharing)
 1. [Activity [Visualization / Examples]](https://docs.google.com/document/d/1Jak0jEiu94uQ7YuX-8_KmOtACzhMEUVb3HsclLkTBss/edit#bookmark=id.fmth1c1x6gya)
 1. [Discussion [Questions / Extensions]](https://docs.google.com/document/d/1Jak0jEiu94uQ7YuX-8_KmOtACzhMEUVb3HsclLkTBss/edit#bookmark=id.hqbgdadrkv22)
+1. [Background Notes [Knockoffs]](https://jamboard.google.com/d/1xcueivNKV4WW0K6fMYQtO-V28uAu-Wz1M3My1WeLyHM/viewer?f=2)
+1. [Discussion [Clarification]](https://docs.google.com/document/d/1VXoR2PE0OIjNcnlzFBK-7wXC1QOyhzjphqVl9ncwyQ0/edit#bookmark=id.e9fz3udyw4vy)
+1. [Discussion [Mock Paper Review]](https://docs.google.com/document/d/1VXoR2PE0OIjNcnlzFBK-7wXC1QOyhzjphqVl9ncwyQ0/edit#bookmark=id.j2ihka8j41hj)
 
 ### Prediction and Dimensionality Reduction
 
