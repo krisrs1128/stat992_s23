@@ -38,6 +38,8 @@ class session.
 1. [Discussion [Mock Paper Review]](https://docs.google.com/document/d/1VXoR2PE0OIjNcnlzFBK-7wXC1QOyhzjphqVl9ncwyQ0/edit#bookmark=id.j2ihka8j41hj)
 
 ### Prediction and Dimensionality Reduction
+1. [Activity [Debate]](https://docs.google.com/document/d/1d4LBcbONyynuut-oElpitGa2yauJummvfZaglVQFP9Q/edit#bookmark=id.ol1vlxddfnpc)
+1. [Discussion [Distillation]](https://docs.google.com/document/d/1d4LBcbONyynuut-oElpitGa2yauJummvfZaglVQFP9Q/edit#bookmark=id.gne6csyvuhj)
 
 ### Generative Models
 

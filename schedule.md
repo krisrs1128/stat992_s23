@@ -25,7 +25,7 @@ nav_order: 1
 **Prediction and Dimensionality Reduction**
 
 |:--:|:-----:|
-| February 28 | [Session 6]() |
+| February 28 | [Session 6](https://krisrs1128.github.io/stat992_s23/sessions.html#prediction-and-dimensionality-reduction) |
 | March 7 | [Session 7]() | 
 | March 11 | [HW1](https://github.com/krisrs1128/stat992_s23/blob/main/activities/hw1.docx?raw=true) <span class="label label-due">Due </span>  |
 
