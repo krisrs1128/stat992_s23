@@ -41,6 +41,7 @@ class session.
 1. [SPLS Background Notes](https://jamboard.google.com/d/1UBdvOJyYc1YnEM3l5SibQrfwu94bYCnLpRmULGdAkSs/edit?usp=sharing)
 1. [Activity [Debate]](https://docs.google.com/document/d/1d4LBcbONyynuut-oElpitGa2yauJummvfZaglVQFP9Q/edit#bookmark=id.ol1vlxddfnpc)
 1. [Discussion [Distillation]](https://docs.google.com/document/d/1d4LBcbONyynuut-oElpitGa2yauJummvfZaglVQFP9Q/edit#bookmark=id.gne6csyvuhj)
+1. [B-RAIL Background Notes](https://jamboard.google.com/d/1TIJ9giMSVE1wmePy-XMEBSMqaTsisAlxwUdpR5Tg7uU/viewer?f=3)
 1. [Discussion [Uses, Limits, Adaptation]](https://docs.google.com/document/d/1Nc-raWcAmbcEsU_ULcjDuKYgqYBM15J4JiLvh6FJ7_4/edit?usp=sharing)
 
 ### Generative Models
