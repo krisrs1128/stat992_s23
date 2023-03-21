@@ -28,11 +28,11 @@ nav_order: 1
 | February 28 | [Session 6](https://krisrs1128.github.io/stat992_s23/sessions.html#prediction-and-dimensionality-reduction) |
 | March 7 | [Session 7](https://krisrs1128.github.io/stat992_s23/sessions.html#prediction-and-dimensionality-reduction) | 
 | March 11 | [HW1](https://github.com/krisrs1128/stat992_s23/blob/main/activities/hw1.docx?raw=true) <span class="label label-due">Due </span>  |
+| March 21 | [Session 8](https://krisrs1128.github.io/stat992_s23/sessions.html#prediction-and-dimensionality-reduction)
 
 **Generative Models**
 
 |:--:|:-----:|
-| March 21  | [Session 8]() |
 | March 28 | [Session 9]() |
 
 **Networks**
