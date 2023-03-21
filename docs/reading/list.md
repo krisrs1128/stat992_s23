@@ -69,6 +69,8 @@ interests, we will choose 1 - 3 papers a week.
 1. [Integrative analysis of single-cell genomics data by coupled nonnegative matrix factorizations](https://www.pnas.org/doi/10.1073/pnas.1805681115)
 1.	[Alignment of spatial genomics and histology data using deep Gaussian processes](https://www.biorxiv.org/content/biorxiv/early/2022/01/11/2022.01.10.475692.full.pdf)
 1.	[Inference after latent variable estimation for single-cell RNA sequencing data](https://doi.org/10.1093/biostatistics/kxac047)
+1. [SPEAR: a Sparse Supervised Bayesian Factor Model for Multi-omic Integration](https://www.biorxiv.org/content/10.1101/2023.01.25.525545v1.full.pdf)
+1. [Quantifying common and distinct information in single-cell multimodal data with Tilted-CCA](https://www.biorxiv.org/content/10.1101/2022.10.07.511320v1.full.pdf)
 
 ###	Supervised
 
