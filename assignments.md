@@ -21,10 +21,10 @@ nav_order: 3
 
 ### HW1: Understanding Algorithms
 Due: March 11, 11:59pm
-* [Description](https://www.gradescope.com/courses/479037/assignments/2624958/submissions)
-* [Example Solutions]()
+* [Description](https://github.com/krisrs1128/stat992_s23/blob/main/activities/hw1.docx)
+* [Submission](https://www.gradescope.com/courses/479037/assignments/2624958)
 
 ### HW2: Research Perspective
 Due: May 7, 11:59pm
-* [Description]()
-* [Example Solutions]()
+* [Description](https://github.com/krisrs1128/stat992_s23/blob/main/activities/hw2.docx)
+* [Submission](https://www.gradescope.com/courses/479037/assignments/2775265)
