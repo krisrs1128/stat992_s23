@@ -50,4 +50,4 @@ nav_order: 1
 
 |:--:|:-----:|
 | May 3 | [Session 14]() |
-| May 10 | <br/> [HW2]() <span class="label label-due"> |
+| May 10 | <br/> [HW2](https://github.com/krisrs1128/stat992_s23/blob/main/activities/hw2.docx?raw=true) <span class="label label-due"> |
