@@ -48,6 +48,8 @@ class session.
 
 ### Generative Models
 
+1. [Discussion [Conceptual and Technical Review]](https://docs.google.com/document/d/1Wg4X6MktiRdDUS44SVyaOS37Yuly3yDHUyKtgDPLUVc/edit)
+
 ### Networks
 
 ### Multi-Study Analysis
