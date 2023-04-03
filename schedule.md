@@ -33,12 +33,12 @@ nav_order: 1
 **Generative Models**
 
 |:--:|:-----:|
-| March 28 | [Session 9]() |
+| March 28 | [Session 9](https://krisrs1128.github.io/stat992_s23/sessions.html#generative-models) |
 
 **Networks**
 
 |:--:|:-----:|
-| April 4  | [Session 10]() |
+| April 4  | [Session 10](https://krisrs1128.github.io/stat992_s23/sessions.html#networks) |
 
 **Multi-Study Analysis**
 

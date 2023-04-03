@@ -44,12 +44,14 @@ class session.
 1. [B-RAIL Background Notes](https://jamboard.google.com/d/1TIJ9giMSVE1wmePy-XMEBSMqaTsisAlxwUdpR5Tg7uU/viewer?f=3)
 1. [Discussion [Uses, Limits, Adaptation]](https://docs.google.com/document/d/1Nc-raWcAmbcEsU_ULcjDuKYgqYBM15J4JiLvh6FJ7_4/edit?usp=sharing)
 1. [Discussion [Interpretation and Neighborhood Selection]](https://docs.google.com/document/d/1ksfYvuzrUQNegQLZyAb_O5yZJXLwA5BkufwghivS09E/edit#)
-1. Code Demo ([starter](https://github.com/krisrs1128/stat992_s23/blob/main/activities/brail-starter.Rmd), [completed](https://github.com/krisrs1128/stat992_s23/blob/main/activities/brail.Rmd), [R](https://github.com/krisrs1128/stat992_s23/blob/main/activities/brail.R), [compiled](https://github.com/krisrs1128/stat992_s23/raw/main/activities/brail.pdf))
 
 ### Generative Models
 
 1. [Discussion [Conceptual and Technical Review]](https://docs.google.com/document/d/1Wg4X6MktiRdDUS44SVyaOS37Yuly3yDHUyKtgDPLUVc/edit)
 
 ### Networks
+
+1. Code Demo ([starter](https://github.com/krisrs1128/stat992_s23/blob/main/activities/brail-starter.Rmd), [completed](https://github.com/krisrs1128/stat992_s23/blob/main/activities/brail.Rmd), [R](https://github.com/krisrs1128/stat992_s23/blob/main/activities/brail.R), [compiled](https://github.com/krisrs1128/stat992_s23/raw/main/activities/brail.pdf))
+1. [Discussion [Elaboration and Proposals]](https://docs.google.com/document/d/1PlElzXfmOIDSkYDYrH-tDxl8EhQXjKuOn_iOOplgtBg/edit?usp=sharing)
 
 ### Multi-Study Analysis
