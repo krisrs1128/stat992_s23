@@ -43,6 +43,7 @@ nav_order: 1
 **Multi-Study Analysis**
 
 |:--:|:-----:|
+| April 11  | [Session 11](https://krisrs1128.github.io/stat992_s23/sessions.html#multi-study-analysis) |
 | April 18  | [Session 12]() |
 | April 25 | [Session 13]() |
 
