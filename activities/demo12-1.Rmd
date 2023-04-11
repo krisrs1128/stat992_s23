@@ -1,0 +1,39 @@
+---
+title: "Untitled"
+output: 
+  pagedown::book_crc:
+    highlight: "kate"
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+```{r}
+library(tidyverse)
+library(SummarizedExperiment)
+theme_set(theme_bw())
+```
+
+```{r}
+load("species_tse.rda")
+focus_taxa <- c("Slackia isoflavoniconvertens", "Streptococcus gordonii", "Klebsiella variicola CAG:634")
+
+abundances <- t(assay(species_tse)) |>
+  as_tibble() |>
+  select(focus_taxa)
+
+species_data <- abundances |>
+  bind_cols(as_tibble(colData(species_tse))) |>
+  pivot_longer(-colnames(colData(species_tse)))
+```
+
+```{r, fig.width = 10, fig.height = 5}
+species_data |>
+  ggplot(aes(age, value, col = BMI)) +
+  geom_point(size = 0.5, alpha = 0.8) +
+  stat_smooth(method = "lm", se = FALSE, col = "black") +
+  facet_grid(name ~ reorder(study_name, value, mean), scales = "free_y") +
+  scale_y_log10()
+```

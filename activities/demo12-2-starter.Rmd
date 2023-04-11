@@ -1,0 +1,43 @@
+---
+title: "Untitled"
+output: 
+  pagedown::book_crc:
+    highlight: "kate"
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+```{r}
+library(DALEXtra)
+library(SummarizedExperiment)
+library(glue)
+library(parsnip)
+library(tidymodels)
+library(tidyverse)
+library(vip)
+theme_set(theme_bw())
+```
+
+We'll study the Type I Diabetes data. The two objects below consider the studies
+combined/separately.
+
+```{r}
+load("T1D.rda")
+se <- se[, colData(se)$disease %in% c("healthy", "T1D")]
+x <- t(assay(se)) |>
+  as_tibble() %>%
+  set_names(glue("ASV{seq_along(.)}"))
+
+combined_data <- bind_cols(
+  x,
+  y = factor(colData(se)$disease),
+  study_name = colData(se)$study_name
+)
+
+split_data <- combined_data %>%
+  split(.$study_name)
+```
+
