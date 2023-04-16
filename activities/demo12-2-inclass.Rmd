@@ -1,0 +1,78 @@
+---
+title: "Untitled"
+output: 
+  pagedown::book_crc:
+    highlight: "kate"
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+```{r}
+library(DALEXtra)
+library(SummarizedExperiment)
+library(glue)
+library(parsnip)
+library(tidymodels)
+library(tidyverse)
+library(TreeSummarizedExperiment)
+library(vip)
+theme_set(theme_bw())
+```
+
+We'll study the Type I Diabetes data. The two objects below consider the studies
+combined/separately.
+
+```{r}
+load("T1D.rda")
+se <- se[, colData(se)$disease %in% c("healthy", "T1D")]
+x <- t(assay(se)) |>
+  as_tibble() %>%
+  set_names(glue("ASV{seq_along(.)}"))
+
+x
+
+combined_data <- bind_cols(
+  x,
+  y = factor(colData(se)$disease),
+  study_name = colData(se)$study_name
+)
+
+split_data <- combined_data %>%
+  split(.$study_name)
+```
+
+```{r}
+gbm <- boost_tree(mode = "classification", trees = 50)
+combined_fit <-  fit(gbm, y ~ ., data = select(combined_data,  -study_name))
+separate_fits <- split_data |>
+  map(~ fit(gbm, y ~ .,  data = select(.,  -study_name)))
+```
+
+```{r}
+map(split_data, dim)
+```
+
+```{r}
+vip(combined_fit)
+map(separate_fits, vip)
+```
+
+```{r}
+focus_taxa <- c("ASV39", "ASV166", "ASV40", "ASV79", "ASV108",  "ASV74")
+
+combined_long <- combined_data |>
+  select(y, study_name,  focus_taxa) |>
+  pivot_longer(starts_with("ASV"), names_to = "ASV")
+
+ggplot(combined_long) +
+  geom_boxplot(aes(log(1 + value), ASV, fill = y)) +
+  facet_grid(. ~ study_name, scales = "free")
+```
+
+
+
+
+

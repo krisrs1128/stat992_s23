@@ -57,3 +57,4 @@ class session.
 ### Multi-Study Analysis
 1. [Discussion [Curated Experiments]](https://docs.google.com/document/d/1R-lNGAOdHwrcUkoOxsj12w_Ygk698BdT24s-cB0THSo/edit)
 1. Code Demos 1 ([code](https://github.com/krisrs1128/stat992_s23/blob/main/activities/demo12-1.Rmd), [compiled](https://github.com/krisrs1128/stat992_s23/blob/main/activities/demo12-1.pdf)), and 2 ([code](https://github.com/krisrs1128/stat992_s23/blob/main/activities/demo12-2.Rmd), [starter](https://github.com/krisrs1128/stat992_s23/blob/main/activities/demo12-2-starter.Rmd), [compiled](https://github.com/krisrs1128/stat992_s23/blob/main/activities/demo12-2.pdf))
+1. [Discussion [Vocabulary and Response]](https://docs.google.com/document/d/1c1yTNTUukbZcQDvdkWeUiW2Ntx9V9jc95xUTuyjBbEk/edit)
