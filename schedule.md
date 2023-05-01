@@ -50,5 +50,5 @@ nav_order: 1
 **Conclusion**
 
 |:--:|:-----:|
-| May 3 | [Session 14]() |
+| May 2 | [Session 14](https://krisrs1128.github.io/stat992_s23/sessions.html#multi-study-analysis) |
 | May 10 | <br/> [HW2](https://github.com/krisrs1128/stat992_s23/blob/main/activities/hw2.docx?raw=true) <span class="label label-due">Due</span> |

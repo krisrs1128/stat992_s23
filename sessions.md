@@ -60,3 +60,4 @@ class session.
 1. [cFIT Background Notes](https://jamboard.google.com/d/1QgMLXxUzuOppK-G53LVkg_526WdH53iyyzRj5U2hZVY/viewer?f=0)
 1. [Discussion [Vocabulary and Response]](https://docs.google.com/document/d/1c1yTNTUukbZcQDvdkWeUiW2Ntx9V9jc95xUTuyjBbEk/edit)
 1. [Discussion [Summary and Approach]](https://docs.google.com/document/d/1_StQ4keZLeseHh8kvetkRPaUA-81GDVcjFvK3MGPRv4/edit)
+1. [Discussion [Course Reflection]](https://docs.google.com/document/d/1wQbz8ALPtKrtRYI5ESfaOTnC_9PrsEJBIgETxN046J0/edit)
